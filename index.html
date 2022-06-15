@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@1,200;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio || Bruno Bispo</title>
+</head>
+<body>
+    <header>
+        <nav id="container-link">
+                <a href="#banner" class="link-header">Home</a>
+                <a href="#sobre-mim" class="link-header">Sobre</a>
+                <a href="#habilidades" class="link-header">Habilidades</a>
+                <a href="#projetos" class="link-header">Projetos-Simples</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-banner" id="banner">
+            <div class="banner-info">
+                <div>
+                    <p>Olá, meu nome é</p>
+                    <p>Bruno Bispo</p>
+                    <p>Sou Desenvolvedor Front-End Jr</p>
+
+                    <div class="container-button">
+                        <button><a href="">GitHub</a></button>
+                    </div>
+                    
+                </div>
+                
+    
+                    <a href="https://sp-studio.de/" target="_blank" title="Ir para o site que o desenho foi feito"><img src="img/bonecoBruno.png" alt="Boneco de desenho com um computador e energitico na mão"></a>
+                
+            </div>
+        </section>
+
+        <section id="sobre-mim" class="secoes">
+           
+            <div>
+                <h2>Sobre mim</h2>
+                <img src="img/arrow-down.png" alt="">
+            </div>
+
+            <div class="container-sobre-mim">
+                    <p>
+                        &emsp;Olá, meu nome é <span class="destaque">Bruno Bispo</span> como já mencionei antes, tenho 21 anos de idade e eu moro em Indaiatuba – SP, eu comecei a gostar de programação no meio do ano de 2020 e desde então, <span class="destaque">tenho me dedicado para aprender programar, olhando vídeo na internet eu já aprendi a fazer alguns projetos sozinho com html, css e js,</span> mas eu ainda tenho algumas dificuldades em algumas coisas, mas já estou trabalhando para melhorar, mais abaixo no site, vocês verão alguns projetos mais simples que consigo fazer, onde aprendi olhando vídeos no youtube e fóruns da internet.  
+                    </p>
+            </div>
+
+        </section>
+
+        <section id="habilidades" class="secoes">
+            <div>
+                <h2>Habilidade</h2>
+                <img src="img/arrow-down.png" alt="">
+            </div>
+
+            <div class="container-habilidades">
+                <div class="habilidades-img">
+                    <div>
+                        <div>
+                            <img src="img/html.png" alt="Logo Html" title="Logo Html">
+                            <p>Nivel de conheimento: <br> <span class="destaque">Intermediário</span></p>
+                        </div>
+                        <div>
+                            <img src="img/css-3.png" alt="Logo Css" title="Logo Css">
+                            <p>Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
+                        </div>
+                        <div>
+                            <img src="img/java-script.png" alt="Logo JavaScript" title="Logo JavaScript">
+                            <p>Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="fundo-projetos">
+            <div class="titulo">
+                <h2>Projetos Simples</h2>
+                <img src="img/arrow-down.png" alt="">
+            </div>
+
+                <div class="container-projetos">
+                    <div class="container-calculadora projeto">
+                        <div class="calculadora">
+                            <input type="text" class="resultado" id="resultado" disabled>
+                            <button class="btn-0" onclick="calcular('valor', '0')">0</button>
+                            <button class="btn-1" onclick="calcular('valor', '1')">1</button>
+                            <button class="btn-2" onclick="calcular('valor', '2')">2</button>
+                            <button class="btn-3" onclick="calcular('valor', '3')">3</button>
+                            <button class="btn-4" onclick="calcular('valor', '4')">4</button>
+                            <button class="btn-5" onclick="calcular('valor', '5')">5</button>
+                            <button class="btn-6" onclick="calcular('valor', '6')">6</button>
+                            <button class="btn-7" onclick="calcular('valor', '7')">7</button>
+                            <button class="btn-8" onclick="calcular('valor', '8')">8</button>
+                            <button class="btn-9" onclick="calcular('valor', '9')">9</button>
+                            <button class="btn-soma" onclick="calcular('acao', '+')">+</button>
+                            <button class="btn-subtracao" onclick="calcular('acao', '-')">-</button>
+                            <button class="btn-divisao" onclick="calcular('acao', '/')">/</button>
+                            <button class="btn-multiplicacao" onclick="calcular('acao', '*')">*</button>
+                            <button class="btn-igual" onclick="calcular('acao', '=')">=</button>
+                            <button class="btn-ponto" onclick="calcular('acao', '.')">.</button>
+                            <button class="btn-limpar" onclick="calcular('acao', 'c')">C</button>
+                        </div>
+                    </div>
+
+                    <div class="container-cores projeto">
+                        <div class="cores">
+                            <button onclick="mudarCor('#ff0000')">Vermelho</button>
+                            <button onclick="mudarCor('#0000ff')">Azul</button>
+                            <button onclick="mudarCor('#adff2f')">Verde</button>
+                        </div>
+                    </div>
+
+                    <div class="container-classes projeto">
+                        <div class="classe">
+                            <p class="texto-classe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit modi perferendis at? Rem error ullam neque, natus vero assumenda nisi repudiandae dolorem alias amet, soluta architecto mollitia fugit omnis inventore.</p>
+                            <button onclick="mudarClasse('.classe2')">Mudar Classe</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

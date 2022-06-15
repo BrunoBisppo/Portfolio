@@ -1,0 +1,412 @@
+/*
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Indie Flower', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/black-brick-wall-textured-background.jpg) center;
+    background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: gray;
+    padding: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+}
+
+/*
+    <Navegação da bar>
+*/
+
+#container-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.link-header{
+    color: white;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9rem;
+}
+
+.link-header:hover{
+    color: rgb(247,140,140);
+    transition: 0.4s;
+}
+
+/*
+    </Navegação da bar>
+*/
+
+/*
+    Apresentação
+*/
+
+.container-banner{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 75%;
+    height: 400px;
+    margin: 90px auto 0px auto;
+    background: url(../img/Palco-preto.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.banner-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+
+.banner-info p{
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.banner-info div p:nth-child(3n){
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.banner-info img{
+    height: 100%;
+}
+
+.banner-info a{
+    height: 100%;
+}
+
+.container-button{
+    width: 50%;
+    margin:  25px auto 0 auto;
+}
+
+.banner-info button{
+    width: 70%;
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px rgb(247,140,140);
+    border: none;
+}
+
+.container-button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.secoes{
+    width: 75%;
+    margin: 90px auto 0 auto;
+}
+
+.secoes h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.secoes div:nth-child(1n){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secoes img{
+    height: 30px;
+}
+
+.container-sobre-mim{
+    color: white;
+    width: 100%;
+    margin: 45px auto;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container-sobre-mim p{
+    width: 100%;
+}
+
+.container-habilidades{
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    height: 250px;
+    width: 100%;
+    margin: 90px auto;
+}
+
+.habilidades-img{
+    width: 100%;
+    height: 100%;
+}
+
+.habilidades-img div:nth-child(1n){
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.habilidades-img img{
+    height: 130px;
+    margin-right: 10px;
+}
+
+.habilidades-img p{
+    color: white;
+    font-weight: bolder;
+    line-height: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.destaque{
+    color: rgb(247,140,140);
+}
+
+/* Incio */
+
+.fundo-projetos{
+    width: 100%;
+    margin: 90px auto 0px auto;
+}
+
+.titulo h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo img{
+    height: 30px;
+}
+
+.container-projetos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 75%;
+    height: 450px;
+    margin: 90px auto 0 auto;
+}
+
+.projeto{
+    width: 30%;
+    border-radius: 15px;
+}
+
+.container-calculadora{
+    height: 90%;
+    background-color: #5BC0EB;
+}
+
+.container-cores{
+    height: 90%;
+    background-color: orange;
+}
+
+.container-classes{
+    height: 90%;
+    background-color: hotpink;
+}
+
+.calculadora{
+    display: grid;
+    height: 95%;
+    width: 95%;
+    grid-template-areas: 
+    "resultado resultado resultado resultado"
+    "btn-limpar btn-limpar btn-divisao btn-multiplicacao"
+    "btn-7 btn-8 btn-9 btn-subtracao"
+    "btn-4 btn-5 btn-6 btn-soma"
+    "btn-1 btn-2 btn-3 btn-igual"
+    "btn-0 btn-0 btn-ponto btn-igual";
+    margin: 15px auto;
+}
+
+.calculadora button{
+    margin: 5px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.resultado{
+    grid-area: resultado;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+}
+
+.btn-limpar{
+    grid-area: btn-limpar;
+}
+
+.btn-divisao{
+    grid-area: btn-divisao;
+}
+
+.btn-multiplicacao{
+    grid-area: btn-multiplicacao;
+}
+
+.btn-7{
+    grid-area: btn-7;
+}
+
+.btn-8{
+    grid-area: btn-8;
+}
+
+.btn-9{
+    grid-area: btn-9;
+}
+
+.btn-subtracao{
+    grid-area: btn-subtracao;
+}
+
+.btn-4{
+    grid-area: btn-4;
+}
+
+.btn-5{
+    grid-area: btn-5;
+}
+
+.btn-6{
+    grid-area: btn-6;
+}
+
+.btn-soma{
+    grid-area: btn-soma;
+}
+
+.btn-1{
+    grid-area: btn-1;
+}
+
+.btn-2{
+    grid-area: btn-2;
+}
+
+.btn-3{
+    grid-area: btn-3;
+}
+
+.btn-igual{
+    grid-area: btn-igual;
+}
+
+.btn-0{
+    grid-area: btn-0;
+}
+
+.btn-ponto{
+    grid-area: btn-ponto;
+}
+
+.cores{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.cores button:nth-child(1n):hover{
+    background-color: red;
+    border-color: red;
+    transition: 0.4s;
+}
+
+.cores button:nth-child(2n):hover{
+    background-color: blue;
+    border-color: blue;
+    transition: 0.4s;
+}
+
+.cores button:nth-child(3n):hover{
+    background-color: greenyellow;
+    border-color: greenyellow;
+    transition: 0.4s;
+}
+
+.cores button{
+    padding: 10px;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+
+.classe{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.classe2{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 1rem;
+}
+
+.classe button{
+    width: 50%;
+    margin-top: 20px;
+    padding: 7px;
+}
