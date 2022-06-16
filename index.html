@@ -17,9 +17,9 @@
     <header>
         <nav id="container-link">
                 <a href="#banner" class="link-header">Home</a>
-                <a href="#sobre-mim" class="link-header">Sobre</a>
-                <a href="#habilidades" class="link-header">Habilidades</a>
-                <a href="#projetos" class="link-header">Projetos-Simples</a>
+                <a href="#sobre-mim" class="link-header sobre-idioma">Sobre</a>
+                <a href="#habilidades" class="link-header habilidade-idioma">Habilidades</a>
+                <a href="#projetos" class="link-header projeto-idioma">Projetos-Simples</a>
         </nav>
     </header>
 
@@ -27,12 +27,12 @@
         <section class="container-banner" id="banner">
             <div class="banner-info">
                 <div>
-                    <p>Olá, meu nome é</p>
+                    <p class="ola-idioma">Olá, meu nome é</p>
                     <p>Bruno Bispo</p>
-                    <p>Sou Desenvolvedor Front-End Jr</p>
+                    <p class="den-idioma">Sou Desenvolvedor Front-End Jr</p>
 
                     <div class="container-button">
-                        <button><a href="">GitHub</a></button>
+                        <button><a href="https://github.com/BrunoBisppo" target="_blank">GitHub</a></button>
                     </div>
                     
                 </div>
@@ -46,12 +46,12 @@
         <section id="sobre-mim" class="secoes">
            
             <div>
-                <h2>Sobre mim</h2>
+                <h2 class="titulo-sobre-mim-idioma">Sobre mim</h2>
                 <img src="img/arrow-down.png" alt="">
             </div>
 
             <div class="container-sobre-mim">
-                    <p>
+                    <p class="sobre-mim-idioma">
                         &emsp;Olá, meu nome é <span class="destaque">Bruno Bispo</span> como já mencionei antes, tenho 21 anos de idade e eu moro em Indaiatuba – SP, eu comecei a gostar de programação no meio do ano de 2020 e desde então, <span class="destaque">tenho me dedicado para aprender programar, olhando vídeo na internet eu já aprendi a fazer alguns projetos sozinho com html, css e js,</span> mas eu ainda tenho algumas dificuldades em algumas coisas, mas já estou trabalhando para melhorar, mais abaixo no site, vocês verão alguns projetos mais simples que consigo fazer, onde aprendi olhando vídeos no youtube e fóruns da internet.  
                     </p>
             </div>
@@ -60,7 +60,7 @@
 
         <section id="habilidades" class="secoes">
             <div>
-                <h2>Habilidade</h2>
+                <h2 class="habilidades-idioma">Habilidades</h2>
                 <img src="img/arrow-down.png" alt="">
             </div>
 
@@ -69,15 +69,15 @@
                     <div>
                         <div>
                             <img src="img/html.png" alt="Logo Html" title="Logo Html">
-                            <p>Nivel de conheimento: <br> <span class="destaque">Intermediário</span></p>
+                            <p class="nivelHtml-idioma">Nivel de conheimento: <br> <span class="destaque">Intermediário</span></p>
                         </div>
                         <div>
                             <img src="img/css-3.png" alt="Logo Css" title="Logo Css">
-                            <p>Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
+                            <p class="nivelCss-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
                         </div>
                         <div>
                             <img src="img/java-script.png" alt="Logo JavaScript" title="Logo JavaScript">
-                            <p>Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
+                            <p class="nivelJs-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
 
         <section id="projetos" class="fundo-projetos">
             <div class="titulo">
-                <h2>Projetos Simples</h2>
+                <h2 class="titulo-projeto-idioma">Projetos Simples</h2>
                 <img src="img/arrow-down.png" alt="">
             </div>
 
@@ -116,21 +116,39 @@
 
                     <div class="container-cores projeto">
                         <div class="cores">
-                            <button onclick="mudarCor('#ff0000')">Vermelho</button>
-                            <button onclick="mudarCor('#0000ff')">Azul</button>
-                            <button onclick="mudarCor('#adff2f')">Verde</button>
+                            <button onclick="mudarCor('#ff0000')" class="red-idioma">Vermelho</button>
+                            <button onclick="mudarCor('#0000ff')" class="blue-idioma">Azul</button>
+                            <button onclick="mudarCor('#adff2f')" class="green-idioma">Verde</button>
                         </div>
                     </div>
 
                     <div class="container-classes projeto">
                         <div class="classe">
                             <p class="texto-classe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit modi perferendis at? Rem error ullam neque, natus vero assumenda nisi repudiandae dolorem alias amet, soluta architecto mollitia fugit omnis inventore.</p>
-                            <button onclick="mudarClasse('.classe2')">Mudar Classe</button>
+                            <button onclick="mudarClasse('.classe2')" class="mudarClasse-idioma">Mudar Classe</button>
                         </div>
                     </div>
                 </div>
         </section>
+
+        <div class="linguagem">
+            <button onclick="mudarPt()">PT-BR</button>
+            <button onclick="mudarEn()">EN-US</button>
+        </div>
     </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="contatos">
+                Email: Brunobisppo@gmail.com
+                <a href="https://github.com/BrunoBisppo">GitHub: Bruno Bispo</a>
+            </div>
+
+            <div>
+                <p class="footer-idioma">Site Feito Completamento Por Bruno Bispo</p>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="./js/main.js"></script>
