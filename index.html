@@ -14,6 +14,8 @@
     <title>Portifólio || Bruno Bispo</title>
 </head>
 <body>
+
+    <!-- Cabeçalho - inicio -->
     <header>
         <nav id="container-link">
                 <a href="#banner" class="link-header">Home</a>
@@ -22,8 +24,12 @@
                 <a href="#projetos" class="link-header projeto-idioma">Projetos-Simples</a>
         </nav>
     </header>
+    <!-- Cabeçalho - fim -->
 
+    
     <main>
+
+    <!-- Seção de informação - inicio -->
         <section class="container-banner" id="banner">
             <div class="banner-info">
                 <div>
@@ -42,7 +48,9 @@
                 
             </div>
         </section>
+    <!-- Seção de informação - fim -->
 
+    <!-- Seção sobre mim - inicio -->
         <section id="sobre-mim" class="secao-sobre">
            
             <div>
@@ -57,7 +65,9 @@
             </div>
 
         </section>
+    <!-- Seção sobre mim - fim -->
 
+    <!-- Seção Habilidades - inicio -->
         <section id="habilidades" class="secao-habilidade">
             <div class="titulo-habilidade">
                 <h2 class="habilidades-idioma">Habilidades</h2>
@@ -84,37 +94,43 @@
                 </div>
             </div>
         </section>
+    <!-- Seção Habilidades - fim -->
 
+    <!-- Seção projetos - inicio -->
         <section id="projetos" class="secao-projetos">
             <div class="titulo-projeto">
-                <h2 class="titulo-projeto-idioma">Projetos Simples</h2>
+                <h2 class="titulo-projeto-idioma">Projetos Básico</h2>
                 <img src="img/arrow-down.png" alt="Imagem de um seta apotando para baixo">
             </div>
-
+            
                 <div class="container-projetos">
+
+                    <!-- Projeto calculadora - inicio -->
                     <div class="container-calculadora">
                         <div class="calculadora">
-                            <input type="text" class="resultado" id="resultado" disabled>
-                            <button class="btn-0" onclick="calcular('valor', '0')">0</button>
-                            <button class="btn-1" onclick="calcular('valor', '1')">1</button>
-                            <button class="btn-2" onclick="calcular('valor', '2')">2</button>
-                            <button class="btn-3" onclick="calcular('valor', '3')">3</button>
-                            <button class="btn-4" onclick="calcular('valor', '4')">4</button>
-                            <button class="btn-5" onclick="calcular('valor', '5')">5</button>
-                            <button class="btn-6" onclick="calcular('valor', '6')">6</button>
-                            <button class="btn-7" onclick="calcular('valor', '7')">7</button>
-                            <button class="btn-8" onclick="calcular('valor', '8')">8</button>
-                            <button class="btn-9" onclick="calcular('valor', '9')">9</button>
-                            <button class="btn-soma" onclick="calcular('acao', '+')">+</button>
-                            <button class="btn-subtracao" onclick="calcular('acao', '-')">-</button>
-                            <button class="btn-divisao" onclick="calcular('acao', '/')">/</button>
-                            <button class="btn-multiplicacao" onclick="calcular('acao', '*')">*</button>
-                            <button class="btn-igual" onclick="calcular('acao', '=')">=</button>
-                            <button class="btn-ponto" onclick="calcular('acao', '.')">.</button>
-                            <button class="btn-limpar" onclick="calcular('acao', 'c')">C</button>
+                                <input type="text" class="resultado" id="resultado" disabled>
+                                <button class="btn-0" onclick="calcular('valor', '0')">0</button>
+                                <button class="btn-1" onclick="calcular('valor', '1')">1</button>
+                                <button class="btn-2" onclick="calcular('valor', '2')">2</button>
+                                <button class="btn-3" onclick="calcular('valor', '3')">3</button>
+                                <button class="btn-4" onclick="calcular('valor', '4')">4</button>
+                                <button class="btn-5" onclick="calcular('valor', '5')">5</button>
+                                <button class="btn-6" onclick="calcular('valor', '6')">6</button>
+                                <button class="btn-7" onclick="calcular('valor', '7')">7</button>
+                                <button class="btn-8" onclick="calcular('valor', '8')">8</button>
+                                <button class="btn-9" onclick="calcular('valor', '9')">9</button>
+                                <button class="btn-soma" onclick="calcular('acao', '+')">+</button>
+                                <button class="btn-subtracao" onclick="calcular('acao', '-')">-</button>
+                                <button class="btn-divisao" onclick="calcular('acao', '/')">/</button>
+                                <button class="btn-multiplicacao" onclick="calcular('acao', '*')">*</button>
+                                <button class="btn-igual" onclick="calcular('acao', '=')">=</button>
+                                <button class="btn-ponto" onclick="calcular('acao', '.')">.</button>
+                                <button class="btn-limpar" onclick="calcular('acao', 'c')">C</button>
                         </div>
                     </div>
+                    <!-- Projeto calculadora - fim -->
 
+                    <!-- Projeto mudança de cores - inicio -->
                     <div class="container-cores">
                         <div class="cores">
                             <button onmousemove="mudarCor('#ff0000')" class="red-idioma">Vermelho</button>
@@ -122,7 +138,9 @@
                             <button onmousemove="mudarCor('#adff2f')" class="green-idioma">Verde</button>
                         </div>
                     </div>
+                    <!-- Projeto mudança de cores - fim -->
 
+                    <!-- Projeto mudança de classe - inicio -->
                     <div class="container-classes">
                         <div class="classe">
                             <div>
@@ -135,15 +153,20 @@
                         </div>
                         
                     </div>
+                    <!-- Projeto mudança de classe - fim -->
                 </div>
         </section>
+        <!-- Seção projetos - inicio -->
 
+        <!-- Seção de idiomas - inicio -->
         <div class="linguagem">
             <button onclick="mudarPt()">PT-BR</button>
             <button onclick="mudarEn()">EN-US</button>
         </div>
+        <!-- Seção de idiomas - fim -->
     </main>
 
+    <!-- Rodapé - inicio -->
     <footer>
         <div class="container-footer">
             <div class="contatos">
@@ -156,6 +179,7 @@
             </div>
         </div>
     </footer>
+    <!-- Rodapé - fim -->
 
 
     <script src="./js/main.js"></script>
