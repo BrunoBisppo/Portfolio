@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -43,7 +43,7 @@
             </div>
         </section>
 
-        <section id="sobre-mim" class="secoes">
+        <section id="sobre-mim" class="secao-sobre">
            
             <div>
                 <h2 class="titulo-sobre-mim-idioma">Sobre mim</h2>
@@ -58,40 +58,41 @@
 
         </section>
 
-        <section id="habilidades" class="secoes">
-            <div>
+        <section id="habilidades" class="secao-habilidade">
+            <div class="titulo-habilidade">
                 <h2 class="habilidades-idioma">Habilidades</h2>
                 <img src="img/arrow-down.png" alt="">
             </div>
 
             <div class="container-habilidades">
                 <div class="habilidades-img">
-                    <div>
+
                         <div>
-                            <img src="img/html.png" alt="Logo Html" title="Logo Html">
+                            <img src="img/html.png" alt="Logo Html">
                             <p class="nivelHtml-idioma">Nivel de conheimento: <br> <span class="destaque">Intermediário</span></p>
                         </div>
+
                         <div>
-                            <img src="img/css-3.png" alt="Logo Css" title="Logo Css">
+                            <img src="img/css-3.png" alt="Logo Css">
                             <p class="nivelCss-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
                         </div>
+
                         <div>
-                            <img src="img/java-script.png" alt="Logo JavaScript" title="Logo JavaScript">
+                            <img src="img/java-script.png" alt="Logo JavaScript">
                             <p class="nivelJs-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="projetos" class="fundo-projetos">
-            <div class="titulo">
+        <section id="projetos" class="secao-projetos">
+            <div class="titulo-projeto">
                 <h2 class="titulo-projeto-idioma">Projetos Simples</h2>
                 <img src="img/arrow-down.png" alt="">
             </div>
 
                 <div class="container-projetos">
-                    <div class="container-calculadora projeto">
+                    <div class="container-calculadora">
                         <div class="calculadora">
                             <input type="text" class="resultado" id="resultado" disabled>
                             <button class="btn-0" onclick="calcular('valor', '0')">0</button>
@@ -114,7 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="container-cores projeto">
+                    <div class="container-cores">
                         <div class="cores">
                             <button onmousemove="mudarCor('#ff0000')" class="red-idioma">Vermelho</button>
                             <button onmousemove="mudarCor('#0000ff')" class="blue-idioma">Azul</button>
@@ -122,11 +123,17 @@
                         </div>
                     </div>
 
-                    <div class="container-classes projeto">
+                    <div class="container-classes">
                         <div class="classe">
-                            <p class="texto-classe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit modi perferendis at? Rem error ullam neque, natus vero assumenda nisi repudiandae dolorem alias amet, soluta architecto mollitia fugit omnis inventore.</p>
-                            <button onclick="mudarClasse('.classe2')" class="mudarClasse-idioma">Mudar Classe</button>
+                            <div>
+                                <p class="texto-classe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit modi perferendis at? Rem error ullam neque, natus vero assumenda nisi repudiandae dolorem alias amet, soluta architecto mollitia fugit omnis inventore.</p>
+                            </div>
+                            
+                            <div>
+                                <button onclick="mudarClasse('.classe2')" class="mudarClasse-idioma">Mudar Classe</button>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
         </section>
