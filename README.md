@@ -1,7 +1,7 @@
 # Meu portfólio feito com Html, Css e Js puro
 
 
-![Boneco do bruno](./img/arrow-down-git.png)
+![Boneco do bruno](./img/bonecoBruno-para-git.png)
 
 ## O que foi usado ![Flecha indicando para baixo](./img/arrow-down-git.png)
 
