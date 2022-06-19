@@ -35,7 +35,7 @@ function mudarEn(){
     document.querySelector('.sobre-idioma').textContent = 'About'
     document.querySelector('.habilidade-idioma').textContent = 'Skill'
     document.querySelector('.projeto-idioma').textContent = 'Simple-Projects'
-    document.querySelector('.ola-idioma').textContent = 'Hello my name is'
+    document.querySelector('.ola-idioma').textContent = 'Hello, my name is'
     document.querySelector('.den-idioma').textContent = "I'm a developer Front-End Jr"
     document.querySelector('.titulo-sobre-mim-idioma').textContent = 'About me'
     document.querySelector('.sobre-mim-idioma').textContent = 
