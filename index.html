@@ -18,10 +18,10 @@
     <!-- Cabeçalho - inicio -->
     <header>
         <nav id="container-link">
-                <a href="#banner" class="link-header">Home</a>
-                <a href="#sobre-mim" class="link-header sobre-idioma">Sobre</a>
-                <a href="#habilidades" class="link-header habilidade-idioma">Habilidades</a>
-                <a href="#projetos" class="link-header projeto-idioma">Projetos-Simples</a>
+                <a href="#banner" class="link-header" tabindex="1">Home</a>
+                <a href="#sobre-mim" class="link-header sobre-idioma" tabindex="2">Sobre</a>
+                <a href="#habilidades" class="link-header habilidade-idioma" tabindex="3">Habilidades</a>
+                <a href="#projetos" class="link-header projeto-idioma" tabindex="4">Projetos-Simples</a>
         </nav>
     </header>
     <!-- Cabeçalho - fim -->
@@ -38,7 +38,7 @@
                     <p class="den-idioma">Sou Desenvolvedor Front-End Jr</p>
 
                     <div class="container-button">
-                        <button><a href="https://github.com/BrunoBisppo" target="_blank">GitHub</a></button>
+                        <button><a href="https://github.com/BrunoBisppo" target="_blank" tabindex="5">GitHub</a></button>
                     </div>
                     
                 </div>
@@ -55,7 +55,7 @@
            
             <div>
                 <h2 class="titulo-sobre-mim-idioma">Sobre mim</h2>
-                <img src="img/arrow-down.png" alt="">
+                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
             </div>
 
             <div class="container-sobre-mim">
@@ -71,7 +71,7 @@
         <section id="habilidades" class="secao-habilidade">
             <div class="titulo-habilidade">
                 <h2 class="habilidades-idioma">Habilidades</h2>
-                <img src="img/arrow-down.png" alt="">
+                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
             </div>
 
             <div class="container-habilidades">
@@ -100,7 +100,7 @@
         <section id="projetos" class="secao-projetos">
             <div class="titulo-projeto">
                 <h2 class="titulo-projeto-idioma">Projetos Básico</h2>
-                <img src="img/arrow-down.png" alt="Imagem de um seta apotando para baixo">
+                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
             </div>
             
                 <div class="container-projetos">
@@ -160,8 +160,8 @@
 
         <!-- Seção de idiomas - inicio -->
         <div class="linguagem">
-            <button onclick="mudarPt()">PT-BR</button>
-            <button onclick="mudarEn()">EN-US</button>
+            <button onclick="mudarPt()" tabindex="6">PT-BR</button>
+            <button onclick="mudarEn()" tabindex="7">EN-US</button>
         </div>
         <!-- Seção de idiomas - fim -->
     </main>
