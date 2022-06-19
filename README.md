@@ -5,6 +5,9 @@
 
 **Olá meu nome é Bruno sou um estudante de front-end e fiz este site somente com Html, Css e JavaScript** 
 
+
+## O que foi usado
+
 ![Logo html](./img/html-git.png)
 ![Logo html](./img/css-3.png)
 ![Logo html](./img/java-script.png)
