@@ -1,3 +1,3 @@
 # Meu portfólio feito com Html, Css e Js puro
 
-!(./img/bonecoBruno.png)
+![Boneco do bruno](./img/bonecoBruno.png)
