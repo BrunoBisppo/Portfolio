@@ -3,7 +3,7 @@
 
 ![Boneco do bruno](./img/bonecoBruno-para-git.png)
 
-## O que foi usado ![Flecha indicando para baixo](./img/arrow-down-git.png)
+## O que foi usado ![Flecha indicando para baixo](./img/arrowdown-git.png)
 
 ![Logo html](./img/html-git.png)
 ![Logo html](./img/css-git.png)
