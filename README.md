@@ -23,7 +23,7 @@
 ![Logo html, css e js](./img/logos-para-git.png)
 
 ## 
-![Meu Boneco](./img/bonecoBruno-para-git.png)
+![Meu Boneco](./img/boneco-bruno-git.png)
 
 
 ## Contato: 
