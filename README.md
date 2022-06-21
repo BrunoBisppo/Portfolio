@@ -14,15 +14,15 @@
 ## SELEÇÃO DE IDIOMAS:
 ###      A seleção de idiomas é onde você pode escolher entre dois idiomas possíveis que são inglês e português, dependo da resolução do seu dispositivo este botão ficara com o position: fixed.
 
-# Site completo:
+# Site completo: ⬇️
 
-![Site completo](../Aleatorio/Site-completo.png)
+![Site completo](./img/Site-completo.png)
 
-##  ➡️ O que foi usado ![Flecha indicando para baixo](./img/arrow-down-git.png)
+##  O que foi usado ⬇️
 
-![Logo html](../Aleatorio/html-git.png)
-![Logo Css](../Aleatorio/css-git.png)
-![Logo Js](../Aleatorio/js-git.png)
+![Logo html](./img/html-git.png)
+![Logo Css](./img/css-git.png)
+![Logo Js](./img/js-git.png)
 
 ![Meu Boneco](./img/bonecoBruno-para-git.png)
 
