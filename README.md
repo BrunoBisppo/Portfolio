@@ -20,9 +20,7 @@
 
 ##  O que foi usado ⬇️
 
-![Logo html](./img/html-git.png)
-![Logo Css](./img/css-git.png)
-![Logo Js](./img/js-git.png)
+![Logo html, css e js](./img/logos-para-git.png)
 
 ![Meu Boneco](./img/bonecoBruno-para-git.png)
 
