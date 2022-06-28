@@ -16,7 +16,7 @@
 
 # Site completo: ⬇️
 
-![Site completo](./img/Site-completo.png)
+![Site completo](./img/site-completo.png)
 
 ##  O que foi usado ⬇️
 
