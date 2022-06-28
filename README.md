@@ -20,7 +20,7 @@ A seleção de idiomas é onde você pode escolher entre dois idiomas possíveis
 
 ##  O que foi usado ⬇️
 
-![Logo html, css e js](./img/logos.png)
+![Logo html, css, js e boostrap](./img/logos.png)
 
 ## 
 ![Meu Boneco](./img/boneco-bruno-git.png)
