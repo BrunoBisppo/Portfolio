@@ -1,162 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@1,200;1,400;1,600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio || Bruno Bispo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Portfólio | Bruno Bispo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/71e974c129.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
 
     <!-- Cabeçalho - inicio -->
-    <header>
-        <nav id="container-link">
-                <a href="#banner" class="link-header" tabindex="1">Home</a>
-                <a href="#sobre-mim" class="link-header sobre-idioma" tabindex="2">Sobre</a>
-                <a href="#habilidades" class="link-header habilidade-idioma" tabindex="3">Habilidades</a>
-                <a href="#projetos" class="link-header projeto-idioma" tabindex="4">Projetos-Simples</a>
-        </nav>
+    <header class="fixed-top bg-secondary">
+        <div class="d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="nav-link text-white" href="#">Home</a>
+                    <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white sobre-idioma" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white habilidade-idioma" href="#habilidade">Habilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white projeto-idioma" href="#projeto">Projeto-Simples</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- Cabeçalho - fim -->
 
-    
     <main>
 
-    <!-- Seção de informação - inicio -->
-        <section class="container-banner" id="banner">
-            <div class="banner-info">
-                <div>
-                    <p class="ola-idioma">Olá, meu nome é</p>
-                    <p>Bruno Bispo</p>
-                    <p class="den-idioma">Sou Desenvolvedor Front-End Jr</p>
+        <!-- Seção de informação - inicio -->
+        <section class="container-banner container w-75 rounded-3" id="sobre">
 
-                    <div class="container-button">
-                        <button><a href="https://github.com/BrunoBisppo" target="_blank" tabindex="5">GitHub</a></button>
+            <div class="d-flex text-white text-center w-75 h-100 lh-1 m-auto">
+                <div class="d-flex align-items-center w-50 h-100">
+                    <div class="h-75 w-100">
+                        <p class="ola-idioma">Olá, meu nome é</p>
+                        <p>Bruno Bispo</p>
+                        <p class="den-idioma">Desenvolvedor Front-End Jr</p>
+                        <button class="btn btn-outline-light text-white"><a class="text-decoration-none text-dark"
+                                href="#">Github</a></button>
                     </div>
-                    
                 </div>
-                
-    
-                    <a href="https://sp-studio.de/" target="_blank" title="Ir para o site que o desenho foi feito"><img src="img/bonecoBruno.png" alt="Boneco de desenho com um computador e energitico na mão"></a>
-                
+
+                <div class="d-flex align-items-center w-50 h-100">
+                    <div class="h-100 w-100 d-flex align-items-center">
+                        <a href=""><img class="w-50" src="img/bonecoBruno.png" alt=""></a>
+                    </div>
+                </div>
+
             </div>
         </section>
-    <!-- Seção de informação - fim -->
+        <!-- Seção de informação - fim -->
 
-    <!-- Seção sobre mim - inicio -->
-        <section id="sobre-mim" class="secao-sobre">
-           
-            <div>
-                <h2 class="titulo-sobre-mim-idioma">Sobre mim</h2>
-                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
-            </div>
+        <!-- Seção sobre mim - inicio -->
+        <section class="container mt-5 w-75">
+            <div class="d-flex justify-content-center align-items-center">
 
-            <div class="container-sobre-mim">
-                    <p class="sobre-mim-idioma">
-                        Olá, meu nome é <span class="destaque">Bruno Bispo</span> como já mencionei antes, tenho 21 anos de idade e eu moro em Indaiatuba – SP, eu comecei a gostar de programação no meio do ano de 2020 e desde então, <span class="destaque">tenho me dedicado para aprender programar, olhando vídeo na internet eu já aprendi a fazer alguns projetos sozinho com html, css e js,</span> mas eu ainda tenho algumas dificuldades em algumas coisas, mas já estou trabalhando para melhorar, mais abaixo no site, vocês verão alguns projetos mais simples que consigo fazer, onde aprendi olhando vídeos no youtube e fóruns da internet.  
-                    </p>
-            </div>
+                <p class="text-white fs-3 mb-0 me-2 titulo-sobre-mim-idioma">Sobre mim</p>
 
-        </section>
-    <!-- Seção sobre mim - fim -->
-
-    <!-- Seção Habilidades - inicio -->
-        <section id="habilidades" class="secao-habilidade">
-            <div class="titulo-habilidade">
-                <h2 class="habilidades-idioma">Habilidades</h2>
-                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
-            </div>
-
-            <div class="container-habilidades">
-                <div class="habilidades-img">
-
-                        <div>
-                            <img src="img/html.png" alt="Logo Html">
-                            <p class="nivelHtml-idioma">Nivel de conheimento: <br> <span class="destaque">Intermediário</span></p>
-                        </div>
-
-                        <div>
-                            <img src="img/css-3.png" alt="Logo Css">
-                            <p class="nivelCss-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
-                        </div>
-
-                        <div>
-                            <img src="img/java-script.png" alt="Logo JavaScript">
-                            <p class="nivelJs-idioma">Nivel de conheimento: <br> <span class="destaque">Básico</span></p>
-                        </div>
+                <div class="arrow-down">
+                    <i class="fa-solid fa-arrow-down"></i>
                 </div>
             </div>
-        </section>
-    <!-- Seção Habilidades - fim -->
 
-    <!-- Seção projetos - inicio -->
-        <section id="projetos" class="secao-projetos">
-            <div class="titulo-projeto">
-                <h2 class="titulo-projeto-idioma">Projetos Básico</h2>
-                <img src="img/arrow-down.png" alt="Flecha vermelha indicando para baixo">
+            <div class="mt-4 rounded-3 container-sobre-mim">
+                <p class="text-white p-3 sobre-mim-idioma">
+                    Olá, meu nome é <span class="destaque">Bruno Bispo</span> como já mencionei antes, tenho 21 anos de
+                    idade e eu moro em Indaiatuba – SP, eu comecei a gostar de programação no meio do ano de 2020 e
+                    desde então, <span class="destaque">tenho me dedicado para aprender programar, olhando vídeo na
+                        internet eu já aprendi a fazer alguns projetos sozinho com html, css e js,</span> mas eu ainda
+                    tenho algumas dificuldades em algumas coisas, mas já estou trabalhando para melhorar, mais abaixo no
+                    site, vocês verão alguns projetos mais simples que consigo fazer, onde aprendi olhando vídeos no
+                    youtube e fóruns da internet.
+                </p>
             </div>
-            
-                <div class="container-projetos">
-
-                    <!-- Projeto calculadora - inicio -->
-                    <div class="container-calculadora">
-                        <div class="calculadora">
-                                <input type="text" class="resultado" id="resultado" disabled>
-                                <button class="btn-0" onclick="calcular('valor', '0')">0</button>
-                                <button class="btn-1" onclick="calcular('valor', '1')">1</button>
-                                <button class="btn-2" onclick="calcular('valor', '2')">2</button>
-                                <button class="btn-3" onclick="calcular('valor', '3')">3</button>
-                                <button class="btn-4" onclick="calcular('valor', '4')">4</button>
-                                <button class="btn-5" onclick="calcular('valor', '5')">5</button>
-                                <button class="btn-6" onclick="calcular('valor', '6')">6</button>
-                                <button class="btn-7" onclick="calcular('valor', '7')">7</button>
-                                <button class="btn-8" onclick="calcular('valor', '8')">8</button>
-                                <button class="btn-9" onclick="calcular('valor', '9')">9</button>
-                                <button class="btn-soma" onclick="calcular('acao', '+')">+</button>
-                                <button class="btn-subtracao" onclick="calcular('acao', '-')">-</button>
-                                <button class="btn-divisao" onclick="calcular('acao', '/')">/</button>
-                                <button class="btn-multiplicacao" onclick="calcular('acao', '*')">*</button>
-                                <button class="btn-igual" onclick="calcular('acao', '=')">=</button>
-                                <button class="btn-ponto" onclick="calcular('acao', '.')">.</button>
-                                <button class="btn-limpar" onclick="calcular('acao', 'c')">C</button>
-                        </div>
-                    </div>
-                    <!-- Projeto calculadora - fim -->
-
-                    <!-- Projeto mudança de cores - inicio -->
-                    <div class="container-cores">
-                        <div class="cores">
-                            <button onmousemove="mudarCor('#ff0000')" class="red-idioma">Vermelho</button>
-                            <button onmousemove="mudarCor('#0000ff')" class="blue-idioma">Azul</button>
-                            <button onmousemove="mudarCor('#adff2f')" class="green-idioma">Verde</button>
-                        </div>
-                    </div>
-                    <!-- Projeto mudança de cores - fim -->
-
-                    <!-- Projeto mudança de classe - inicio -->
-                    <div class="container-classes">
-                        <div class="classe">
-                            <div>
-                                <p class="texto-classe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit modi perferendis at? Rem error ullam neque, natus vero assumenda nisi repudiandae dolorem alias amet, soluta architecto mollitia fugit omnis inventore.</p>
-                            </div>
-                            
-                            <div>
-                                <button onclick="mudarClasse('.classe2')" class="mudarClasse-idioma">Mudar Classe</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Projeto mudança de classe - fim -->
-                </div>
         </section>
+        <!-- Seção sobre mim - fim -->
+
+        <!-- Seção habilidades - inicio -->
+        <section class="container mt-5 w-75" id="habilidade">
+            <div class="d-flex justify-content-center align-items-center">
+
+                <p class="text-white fs-3 mb-0 me-2 habilidades-idioma">Habilidades</p>
+
+                <div class="arrow-down">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+
+            <div class="mt-4 rounded-3 container-habildiade">
+                <div class="d-flex flex-wrap justify-content-around p-3 text-center align-items-center">
+                    <div>
+                        <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                        </svg>
+                        <p class="nivelHtml-idioma text-white nivelHtml-idioma">Nivel de conheimento: <br> <span
+                                class="destaque">Intermediário</span></p>
+                    </div>
+
+                    <div>
+                        <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                        </svg>
+                        <p class="nivelCss-idioma text-white nivelCss-idioma">Nivel de conheimento: <br> <span
+                                class="destaque">Básico</span></p>
+                    </div>
+
+                    <div>
+                        <svg class="svg-logo js-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                        </svg>
+                        <p class="nivelJs-idioma text-white nivelJs-idioma">Nivel de conheimento: <br> <span
+                                class="destaque">Básico</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção habilidades - fim -->
+
         <!-- Seção projetos - inicio -->
+        <div class="mt-5 d-flex justify-content-center align-items-center">
+
+            <p class="text-white fs-3 mb-0 me-2 titulo-projeto-idioma">Projetos Básicos</p>
+
+            <div class="arrow-down">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </div>
+
+        <div class="mt-4 container w-75 rounded-3 container-projeto">
+            <div class="d-flex flex-column justify-content-center">
+
+                <!-- Calculadora - inicio -->
+                <div class="w-100 mt-4 d-flex justify-content-center">
+                    <div class="calculadora">
+                        <input type="text" class="resultado w-100" id="resultado" disabled>
+                        <button class="btn-0" onclick="calcular('valor', '0')">0</button>
+                        <button class="btn-1" onclick="calcular('valor', '1')">1</button>
+                        <button class="btn-2" onclick="calcular('valor', '2')">2</button>
+                        <button class="btn-3" onclick="calcular('valor', '3')">3</button>
+                        <button class="btn-4" onclick="calcular('valor', '4')">4</button>
+                        <button class="btn-5" onclick="calcular('valor', '5')">5</button>
+                        <button class="btn-6" onclick="calcular('valor', '6')">6</button>
+                        <button class="btn-7" onclick="calcular('valor', '7')">7</button>
+                        <button class="btn-8" onclick="calcular('valor', '8')">8</button>
+                        <button class="btn-9" onclick="calcular('valor', '9')">9</button>
+                        <button class="btn-soma" onclick="calcular('acao', '+')">+</button>
+                        <button class="btn-subtracao" onclick="calcular('acao', '-')">-</button>
+                        <button class="btn-divisao" onclick="calcular('acao', '/')">/</button>
+                        <button class="btn-multiplicacao" onclick="calcular('acao', '*')">*</button>
+                        <button class="btn-igual" onclick="calcular('acao', '=')">=</button>
+                        <button class="btn-ponto" onclick="calcular('acao', '.')">.</button>
+                        <button class="btn-limpar" onclick="calcular('acao', 'c')">C</button>
+                    </div>
+                </div>
+                <!-- Calculadora - fim -->
+
+                <!-- Cores - inicio -->
+                <div class="container-projetos w-50 m-auto mt-3 cores rounded-3">
+                    <div class="d-flex flex-wrap align-items-center h-100">
+                        <button class="m-1 w-100 botao-rosa btn btn-outline-light red-idioma"
+                            onmouseover="mudarCor('#ffcbdb')">Rosa</button>
+                        <button class="m-1 w-100 botao-azul btn btn-outline-light blue-idioma"
+                            onmouseover="mudarCor('#0000ff')">Azul</button>
+                        <button class="m-1 w-100 botao-verde btn btn-outline-light green-idioma"
+                            onmouseover="mudarCor('#00ff00')">Verde</button>
+                    </div>
+                </div>
+                <!-- Cores - fim -->
+
+                <!-- Classes - inicio -->
+                <div class="container-projetos w-50 m-auto">
+                    <div class="d-flex flex-column p-4 h-100 align-items-center">
+                        <p class="text-white texto-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim, maxime
+                            dignissimos. Rerum minima ad fugit cupiditate! Veniam fuga ipsam tempore reiciendis
+                            aliquam, laborum, consequuntur delectus tenetur quas obcaecati porro. Iure?</p>
+                        <button class="btn btn-outline-light mudarClasse-idioma" onclick="mudarClasse()">Mudar
+                            Classe</button>
+                    </div>
+                </div>
+                <!-- Classes - fim -->
+
+            </div>
+        </div>
+        <!-- Seção projetos - fim -->
 
         <!-- Seção de idiomas - inicio -->
         <div class="linguagem">
@@ -166,22 +219,22 @@
         <!-- Seção de idiomas - fim -->
     </main>
 
-    <!-- Rodapé - inicio -->
-    <footer>
-        <div class="container-footer">
-            <div class="contatos">
-                Email: Brunobisppo@gmail.com
-                <a href="https://github.com/BrunoBisppo">GitHub: Bruno Bispo</a>
-            </div>
-
-            <div>
-                <p class="footer-idioma">Site Feito Completamento Por Bruno Bispo</p>
-            </div>
+    <!-- Footer - inicio -->
+    <footer class="container-fluid w-100 text-white mt-5 text-center">
+        <div class="p-2">
+            <p class="mb-3">Email: Brunobisppo@gmail.com</p>
+            <button class="mb-3 btn btn-outline-dark"><a class="text-decoration-none text-white"
+                    href="#">Github</a></button>
+            <p class="footer-idioma">Site Feito Completamento Por Bruno Bispo</p>
         </div>
     </footer>
-    <!-- Rodapé - fim -->
+    <!-- Footer - fim -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
