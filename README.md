@@ -1,4 +1,4 @@
-# Portifólio feito com Html, Css, javaScript e Boostrap 5.
+# Portfólio feito com Html, Css, javaScript e Boostrap 5.
 
 ➡️ O meu portfólio foi feito com html, css e js, neste projeto simples eu consegui colocar algumas interações básicas como a calculadora, a seleção de cores e a seleção de classe, além do seletor de idioma que foi feito totalmente manual usando o text.content em todos os textos.
 
